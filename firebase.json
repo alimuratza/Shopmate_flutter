@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "ali-ecommerce-1234",
+          "appId": "1:240906661824:android:4eb28fad866cc3583fe225",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "ali-ecommerce-1234",
+          "configurations": {
+            "android": "1:240906661824:android:4eb28fad866cc3583fe225",
+            "web": "1:240906661824:web:beec937538180cfb3fe225"
+          }
+        }
+      }
+    }
+  }
+}

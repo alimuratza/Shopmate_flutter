@@ -1,0 +1,57 @@
+name: ecommerceapp
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management + Routing + Dependency Injection
+  # Purpose: Makes state management, navigation, and sharing data easy
+  get: ^4.6.6
+
+  # Firebase Core
+  # Purpose: Initializes Firebase (required for all Firebase features)
+  firebase_core: ^3.0.0
+
+  # Firebase Authentication
+  # Purpose: Handles user signup, login, logout, password management
+  firebase_auth: ^5.7.0
+
+  # Cloud Firestore
+  # Purpose: CRUD + query + streams for app entities (e.g., products)
+  cloud_firestore: ^5.6.0
+
+  # Firebase Storage
+  # Purpose: Upload product images and store download URLs in Firestore
+  firebase_storage: ^12.4.0
+
+  # Cloudinary for image uploads
+  # Purpose: Upload images to Cloudinary CDN and get URLs
+  cloudinary_public: ^0.23.1
+
+  # Image Picker
+  # Purpose: Pick images from gallery or camera
+  image_picker: ^1.0.7
+
+  # Google Generative AI (Gemini)
+  # Purpose: AI-powered recommendations, chatbot, and content generation
+  google_generative_ai: ^0.4.0
+
+  # HTTP for API calls
+  # Purpose: Make requests to AI APIs
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true

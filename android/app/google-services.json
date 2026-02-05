@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "240906661824",
+    "project_id": "ali-ecommerce-1234",
+    "storage_bucket": "ali-ecommerce-1234.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:240906661824:android:4eb28fad866cc3583fe225",
+        "android_client_info": {
+          "package_name": "com.example.ecommerceapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6-M5rFSCkKRmdaKKMKcemDCZ-NgWgxdU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
